@@ -31,7 +31,7 @@ while(True):
             
                 
             if(zz==1):
-                pp= requests.get(f"https://api.telegram.org/bot1809999802:AAEFuNFngQMjqpUs3bbG_VR2alnmu8bk-9I/sendMessage?chat_id=-1001329516656&text={p}")
+                pp= requests.get(f"https://api.telegram.org/bot1809999872:AAEFuNFngQMjqpUs3bbG_VR2alnmu8bk-9I/sendMessage?chat_id=-1001329516656&text={p}")
             zz=0
             if(p==200):
                 sessions=request.json()["sessions"]
@@ -55,7 +55,7 @@ min_age_lim={min_age_lim}\n
 vaccine={vaccine}\n
                         """
                         if(dose1+dose2 > 0 and min_age_lim==18):
-                            pp= requests.get(f"https://api.telegram.org/bot1809999802:AAEFuNFngQMjqpUs3bbG_VR2alnmu8bk-9I/sendMessage?chat_id=-1001495012017&text={text}")
+                            pp= requests.get(f"https://api.telegram.org/bot1809999872:AAEFuNFngQMjqpUs3bbG_VR2alnmu8bk-9I/sendMessage?chat_id=-1001495012017&text={text}")
 
 
                 
