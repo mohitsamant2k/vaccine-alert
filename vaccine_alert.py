@@ -1,20 +1,3 @@
-# "id": -1001495012017,
-# https://api.telegram.org/bot1809999802:AAEFuNFngQMjqpUs3bbG_VR2alnmu8bk-9I/getUpdates
-# https://api.telegram.org/bot1809999802:AAEFuNFngQMjqpUs3bbG_VR2alnmu8bk-9I/sendMessage?chat_id=-1001495012017&text="hi first message"
-
-# import urllib
-# p= requests.get("https://api.telegram.org/bot1809999802:AAEFuNFngQMjqpUs3bbG_VR2alnmu8bk-9I/sendMessage?chat_id=-1001495012017&text='hi first message'")
-# # p=p.json()
-# # print(p)
-# headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
-# # p=requests.get('https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=263139&date=22-05-2021', headers=headers)
-
-# p=requests.get('https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=263139&date=25-05-2021',headers=headers)
-# print(type(p))
-# # p=p.json()
-# p=p.json()
-# print(p)
-# print(len(p["sessions"]))
 import requests
 import time
 import datetime
